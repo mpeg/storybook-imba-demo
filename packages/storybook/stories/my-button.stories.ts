@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/web-components'
 import { render_component, imba_source_transform } from '../meta.imba'
 
 const options: Meta = {
-    title: 'Design System/my-button',
+    title: 'Components/my-button',
     tags: ['autodocs'],
     render: ({ label, ...args }) => render_component('my-button', args, label),
     argTypes: {

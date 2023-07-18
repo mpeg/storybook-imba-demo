@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/web-components'
 import { render_component, imba_source_transform } from '../meta.imba'
 
 const options: Meta = {
-    title: 'Design System/my-counter',
+    title: 'Components/my-counter',
     tags: ['autodocs'],
     render: (args) => render_component('my-counter', args),
     argTypes: {
