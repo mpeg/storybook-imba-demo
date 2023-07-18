@@ -1,0 +1,10 @@
+{
+  "name": "@storybook-imba/component-library",
+  "type": "module",
+  "exports": "./bundle.imba",
+  "private": true,
+  "dependencies": {
+    "imba": "https://gitpkg.vercel.app/api/pkg.tgz?url=imba/imba/packages/imba&commit=699e04cb6595fe4a7067815efa896044a076dda1&scripts.postinstall=npm%20install%20--ignore-scripts%20%26%26%20npm%20run%20build",
+    "vite": "^4.4.4"
+  }
+}
